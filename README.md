@@ -1,0 +1,27 @@
+VISITANTES
+
+LISTAR EVENTOS ORDENADOS POR FECHA:
+GET /api/events
+
+COMPARTIR EVENTO:
+GET /api/events/share/:id
+
+VER EVENTO CON TODOS SUS ATRIBUTOS:
+GET /api/events/find/:id
+
+LISTADO DE EVENTOS DESTACADOS:
+GET /api/events/highlight
+
+USUARIOS
+
+LOGIN:
+POST /api/login
+
+EVENTOS PAGINADOS DE CADA USUARIO
+GET /api/events/byuser
+
+CREACIÓN DE EVENTO
+POST /api/events
+
+ELIMINACIÓN DE EVENTOS DEL USUARIO:
+DELETE /api/events/:id

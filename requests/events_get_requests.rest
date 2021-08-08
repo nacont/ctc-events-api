@@ -1,0 +1,18 @@
+GET http://localhost:3001/api/events
+
+###
+GET http://localhost:3001/api/events/byuser?page=1&limit=5
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxMTAwYzRmNzc2YmI1MmE5OGM1OWQ4MiIsInVzZXJuYW1lIjoicm9tcG8iLCJpYXQiOjE2Mjg0NDE2OTMsImV4cCI6MTYyOTA0NjQ5M30.qdcFP09E6jLTu-g4vIWDl28IIeXjVgxhqSQSNbqZ5aU
+
+###
+GET http://localhost:3001/api/events/byuser?page=2&limit=5
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxMTAwNjkyNzc2YmI1MmE5OGM1OWQwNSIsInVzZXJuYW1lIjoibmFjb250IiwiaWF0IjoxNjI4NDQwMjQ2LCJleHAiOjE2MjkwNDUwNDZ9.2pmJKwdcmPDvezmYSqVzNeb_mywayobxbWWRTZgmfTU
+
+###
+GET http://localhost:3001/api/events/highlight
+
+###
+GET http://localhost:3001/api/events/share/610d6cb473bdf6048813cfa6
+
+###
+GET http://localhost:3001/api/events/find/610d6cb473bdf6048813cfa6
