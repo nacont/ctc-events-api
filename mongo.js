@@ -5,9 +5,7 @@ const {
     NODE_ENV 
 } = process.env;  
 
-const connectionString = NODE_ENV === 'test'
-    ? MONGO_DB_URI_TEST
-    : MONGO_DB_URI;
+const connectionString = "mongodb+srv://newuser:rootroot@cluster0.lkz7e.mongodb.net/events-app?retryWrites=true&w=majority"
 
 // const connectionString = MONGO_DB_URI;
 
